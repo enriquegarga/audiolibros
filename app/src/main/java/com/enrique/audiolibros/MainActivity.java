@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    
+
     public void mostrarDetalle(int id) {
         DetalleFragment detalleFragment = (DetalleFragment) getSupportFragmentManager().findFragmentById(R.id.detalle_fragment);
         if (detalleFragment != null) {
